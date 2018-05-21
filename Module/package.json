@@ -1,0 +1,11 @@
+{
+  "name": "simple_module",
+  "version": "1.0.0",
+  "description": "Create a simple module using npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World Module' && exit 1"
+  },
+  "author": "Aditya Inapurapu",
+  "license": "ISC"
+}
