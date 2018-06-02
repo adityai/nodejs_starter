@@ -13,3 +13,17 @@ request.post(
         }
     }
 );
+
+request.post(
+	    'https://iaditya.herokuapp.com/widgets/prime',
+	    { json: { "auth_token": "YOUR_AUTH_TOKEN", "title": "PING" } },
+	    function (error, response, body) {
+	    	console.log(response.statusCode);
+	        if (!error && response.statusCode == 200) {
+	            console.log(body);
+	        }
+	        else {
+	        	console.log(response.body);
+	        }
+	    }
+	);
